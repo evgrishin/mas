@@ -19,10 +19,10 @@
 </div>
 
 {$_modx->runSnippet("!egCitys", [
-'tpl' => '@FILE common/chunks/modal_regions.tpl'
+'tpl' => '@FILE elements/common/chunks/modal_regions.tpl'
 ])}
 
-<script src="assets/mas/build/js/build.js?fgdgd6576fg" type="text/javascript"></script>
+<script src="assets/matras-stock/js/build.js?fgdgd6576fg" type="text/javascript"></script>
 <script>
     $('#exampleModal').on('show.bs.modal', function() {
         $('#bodyf').append($("#mse2_filters").detach());
